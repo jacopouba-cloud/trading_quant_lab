@@ -580,3 +580,7 @@ plt.fill_between(df_res.index, df_res['Cum_PnL'], df_res['Cum_PnL'].cummax(), co
 plt.title('THE HOLY TRINITY: MASTER PORTFOLIO EQUITY CURVE (2021-2026)', fontsize=16, color='white', fontweight='bold')
 plt.grid(alpha=0.1, color='white'); plt.gca().set_facecolor('#121212'); plt.gcf().set_facecolor('#121212')
 plt.tick_params(colors='white'); plt.legend(facecolor='#121212', labelcolor='white'); plt.tight_layout(); plt.show()
+
+
+
+
